@@ -33,3 +33,19 @@
         display: none;
     }
 }
+
+.contact-link {
+    color: #333; /* A neutral, dark color */
+    text-decoration: none; /* Removes underline */
+    font-weight: 500; /* Slightly bolder than normal text */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.contact-link:hover {
+    color: #007BFF; /* Accent color on hover (adjust to your theme) */
+    cursor: pointer; /* Changes cursor to pointer */
+}
+
+.contact-link:active {
+    color: #0056b3; /* Slightly darker accent color when clicked */
+}
