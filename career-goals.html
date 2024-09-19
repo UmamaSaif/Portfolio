@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umama Saif - Career Goals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#F06292',
+                        secondary: '#4DB6AC',
+                        accent: '#FFD54F',
+                        background: '#FFF3E0',
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background text-gray-800">
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="font-bold text-xl text-primary flex items-center">
+                    <img src="logo.png" alt="Logo" class="w-8 h-8 mr-2">
+                    Umama Saif
+                </a>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="lg:hidden burger-icon">
+                    <svg class="w-6 h-6 text-primary cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </label>
+                <div class="nav-menu space-y-4 lg:space-y-0 lg:space-x-6">
+                    <a href="index.html" class="block lg:inline-block hover:text-primary">Home</a>
+                    <a href="profile.html" class="block lg:inline-block hover:text-primary">Personal Profile</a>
+                    <a href="gallery.html" class="block lg:inline-block hover:text-primary">Gallery</a>
+                    <a href="career-goals.html" class="block lg:inline-block text-primary">Career Goals</a>
+                    <a href="projects.html" class="block lg:inline-block hover:text-primary">Projects</a>
+                    <a href="skills-interests.html" class="block lg:inline-block hover:text-primary">Skills & Interests</a>
+                    <a href="contact.html" class="block lg:inline-block hover:text-primary">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-6 py-16">
+        <h1 class="text-4xl font-bold mb-8 text-center">Career Goals</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-4 text-primary">Short-Term Goals</h2>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Achieve academic excellence and maintain good grades</li>
+                    <li>Develop strong skills in software engineering principles</li>
+                    <li>Complete all assigned tasks efficiently and meet deadlines</li>
+                    <li>Gain a deeper understanding of Data Structures and Algorithms</li>
+                    <li>Expand my portfolio with hands-on projects and collaborations</li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-4 text-secondary">Long-Term Goals</h2>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Become a skilled Full Stack Developer</li>
+                    <li>Continue improving and mastering programming languages like Java, Python, and C++</li>
+                    <li>Gain hands-on experience working on real-time projects in the industry</li>
+                    <li>Achieve career success and growth through consistent learning and development</li>
+                    <li>Contribute to impactful projects that solve real-world problems</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="mt-12 bg-accent rounded-lg shadow-md p-6 text-center">
+            <h2 class="text-2xl font-bold mb-4">Motivational Quote</h2>
+            <p class="text-xl italic">"Success is the result of preparation, hard work, and learning from failure." - Colin Powell</p>
+        </div>
+    </main>
+    <footer class="bg-primary text-white text-center py-6">
+        <p>&copy; 2024 Umama Saif. All rights reserved.</p>
+    </footer>
+</body>
+</html>

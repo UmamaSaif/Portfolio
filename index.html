@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umama Saif - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#F06292',
+                        secondary: '#4DB6AC',
+                        accent: '#FFD54F',
+                        background: '#FFF3E0',
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background text-gray-800">
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="font-bold text-xl text-primary flex items-center">
+                    <img src="logo.png" alt="Logo" class="w-8 h-8 mr-2">
+                    Umama Saif
+                </a>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="lg:hidden burger-icon">
+                    <svg class="w-6 h-6 text-primary cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </label>
+                <div class="nav-menu space-y-4 lg:space-y-0 lg:space-x-6">
+                    <a href="index.html" class="block lg:inline-block text-primary">Home</a>
+                    <a href="profile.html" class="block lg:inline-block hover:text-primary">Personal Profile</a>
+                    <a href="gallery.html" class="block lg:inline-block hover:text-primary">Gallery</a>
+                    <a href="career-goals.html" class="block lg:inline-block hover:text-primary">Career Goals</a>
+                    <a href="projects.html" class="block lg:inline-block hover:text-primary">Projects</a>
+                    <a href="skills-interests.html" class="block lg:inline-block hover:text-primary">Skills & Interests</a>
+                    <a href="contact.html" class="block lg:inline-block hover:text-primary">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-8 md:mb-0">
+            <h1 class="text-4xl font-bold mb-4">Hi, my name is Umama Saif.</h1>
+            <h2 class="text-5xl font-bold mb-6">I am a Software Engineering student.</h2>
+            <p class="mb-8">I'm pursuing my Bachelor's in Software Engineering at NUCES-FAST. I am passionate about Full Stack Development, and I have experience in several programming languages like Java, Python, and C++.</p>
+            <a href="contact.html" class="bg-primary text-white px-6 py-3 rounded-full hover:bg-opacity-90 transition duration-300">Get in Touch</a>
+        </div>
+        <div class="md:w-1/2 relative">
+            <div class=" rounded-3xl overflow-hidden mx-12 ">
+                <img src="Umama.jpeg" alt="Umama Saif" class="prof-img shadow-b-lg">
+            </div>
+            <div class="absolute top-0 right-0 bg-accent rounded-full p-4">
+                <span class="text-2xl font-bold">Umama Saif</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="container mx-auto px-6 py-16">
+        <h3 class="text-center text-2xl mb-2">Passion led us here</h3>
+        <h2 class="text-center text-4xl font-bold mb-12">What I do</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:shadow-lg">
+                <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Software Development</h3>
+                <p>Experienced in building scalable applications with Java, Python, and C++. I have also worked on full-stack projects.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:shadow-lg">
+                <div class="bg-secondary rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Mentoring</h3>
+                <p>I currently mentor students in the Introduction to ICT lab as a Lab Demonstrator, helping them with technical challenges and software concepts.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:shadow-lg">
+                <div class="bg-accent rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 14l9-5-9-5-9 5 9 5z"></path><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Education</h3>
+                <p>Currently pursuing my degree in Software Engineering. I am working on improving my development skills and focusing on full-stack technologies.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-primary text-white text-center py-6">
+        <p>&copy; 2024 Umama Saif. All rights reserved.</p>
+    </footer>
+</body>
+</html>

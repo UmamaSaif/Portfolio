@@ -1,0 +1,35 @@
+.prof-img{
+    width: 400px;
+    border-radius: 70px;
+    
+}
+
+#menu-toggle {
+    display: none;
+}
+.nav-menu {
+    display: none;
+}
+#menu-toggle:checked ~ .nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+@media (min-width: 1024px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        padding: 0;
+        box-shadow: none;
+    }
+    .burger-icon {
+        display: none;
+    }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umama Saif - Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#F06292',
+                        secondary: '#4DB6AC',
+                        accent: '#FFD54F',
+                        background: '#FFF3E0',
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background text-gray-800">
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="font-bold text-xl text-primary flex items-center">
+                    <img src="logo.png" alt="Logo" class="w-8 h-8 mr-2">
+                    Umama Saif
+                </a>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="lg:hidden burger-icon">
+                    <svg class="w-6 h-6 text-primary cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </label>
+                <div class="nav-menu space-y-4 lg:space-y-0 lg:space-x-6">
+                    <a href="index.html" class="block lg:inline-block hover:text-primary">Home</a>
+                    <a href="profile.html" class="block lg:inline-block hover:text-primary">Personal Profile</a>
+                    <a href="gallery.html" class="block lg:inline-block hover:text-primary">Gallery</a>
+                    <a href="career-goals.html" class="block lg:inline-block hover:text-primary">Career Goals</a>
+                    <a href="projects.html" class="block lg:inline-block text-primary">Projects</a>
+                    <a href="skills-interests.html" class="block lg:inline-block hover:text-primary">Skills & Interests</a>
+                    <a href="contact.html" class="block lg:inline-block hover:text-primary">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-6 py-16">
+        <h1 class="text-4xl font-bold mb-8 text-center">Projects</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img src="BFP.PNG" alt="Project 1" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-2">BloodFlowPro</h2>
+                    <p><strong>Collaborators:</strong> Umama Saif, Aamina Bokhari, Ahmad Javaid</p>
+                    <p class="text-gray-600 mb-4">BloodFlowPro is a comprehensive blood donation management system developed using the MVC architecture.</p>
+                    <p class="font-semibold mb-2">Technologies Used:</p>
+                    <ul class="list-disc list-inside mb-4">
+                        <li>Java</li>
+                        <li>Fxml</li>
+                        <li>MySQL</li>
+                        <li>JDBC</li>
+                    </ul>
+                    <a href="https://github.com/UmamaSaif/BloodFlowPro" target="_blank" class="text-primary hover:underline">GitHub Repository</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img src="DCM.PNG" alt="Project 2" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-2">Daycare Management System</h2>
+                    <p><strong>Collaborators:</strong> Umama Saif, Shajia Tahir</p>
+                    <p class="text-gray-600 mb-4">This system efficiently manages daycare operations using C# and SQL.</p>
+                    <p class="font-semibold mb-2">Technologies Used:</p>
+                    <ul class="list-disc list-inside mb-4">
+                        <li>C#</li>
+                        <li>SQL</li>
+                        <li>WinForms</li>
+                        <li>Database</li>
+                    </ul>
+                    <a href="https://github.com/UmamaSaif/Daycare-Management-System" target="_blank" class="text-primary hover:underline">GitHub Repository</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img src="CRMS.PNG" alt="Project 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-2">Java-Powered Car Rental System</h2>
+                    <p class="text-gray-600 mb-4">A console-based system for managing car rentals developed in Java.</p>
+                    <p class="font-semibold mb-2">Technologies Used:</p>
+                    <ul class="list-disc list-inside mb-4">
+                        <li>Java</li>
+                        <li>Eclipse</li>
+                    </ul>
+                    <a href="https://github.com/UmamaSaif/Java-Powered-Car-Rental-System"  target="_blank" class="text-primary hover:underline">GitHub Repository</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img src="SQG.PNG" alt="Project 4" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-2">Quiz Game</h2>
+                    <p class="text-gray-600 mb-4">A simple quiz game developed in Python.</p>
+                    <p class="font-semibold mb-2">Technologies Used:</p>
+                    <ul class="list-disc list-inside mb-4">
+                        <li>Python</li>
+                        <li>Tkinter</li>
+                    </ul>
+                    <a href="https://github.com/UmamaSaif/CodePractice/blob/main/quiz_game.py" target="_blank" class="text-primary hover:underline">GitHub Repository</a>
+                </div>
+            </div>
+            
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg">
+                    <img src="WA.jpeg" alt="Project 4" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-2xl font-bold mb-2">Weather App</h2>
+                        <p class="text-gray-600 mb-4">A basic weather application developed using HTML, CSS, and JavaScript, featuring integration with a weather API for real-time data retrieval.</p>
+                        <p class="font-semibold mb-2">Technologies Used:</p>
+                        <ul class="list-disc list-inside mb-4">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Application Programming Interfaces(API)</li>
+                        </ul>
+                        <a href="https://umamasaif.github.io/weather-app/" target="_blank" class="text-primary hover:underline">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="bg-primary text-white text-center py-6">
+        <p>&copy; 2024 Umama Saif. All rights reserved.</p>
+    </footer>
+</body>
+</html>
